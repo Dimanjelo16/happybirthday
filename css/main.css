@@ -1,0 +1,134 @@
+body{
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  height: 100vh;
+  font-family: 'Manrope', sans-serif;
+}
+a{
+  color: inherit;
+}
+.header{
+  height: 80px;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+.container{
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 30px;
+  letter-spacing: 6px;
+  font-weight: 700;
+}
+.nav{
+  display: flex;
+}
+.nav-item{
+
+  margin-left: 70px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu{  
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #5F9EA0;
+  margin-left: auto;
+  left: 100%;
+  right: 150px;
+  padding: 10px;
+  display: none;
+}
+#nav{
+  right: 100%;
+}
+.nav-item-1{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.menu-bith{
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.burger{
+  display: none;
+}
+@media(max-width: 850px){
+  .burger{
+    display: block;
+    z-index: 1;
+  }
+  .nav{
+    display: none;
+  }
+  .container-main{
+    flex-direction: column;
+  }
+  .container-gift{
+    flex-direction: column;
+  }
+}
+.main{
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+}
+.container-main{
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.h1{
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.p{
+  font-size: 22px;
+}
+.btn{
+  font-size: 22px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border: 2px solid black;
+  margin-right: 35px;
+  transition: all 0.5s ease;
+}
+.btn-block{
+  margin-top: 40px;
+  display: flex;
+}
+.btn:hover{
+  color: white;
+  background-color: red;
+  border: none;
+}
+.gift{
+  margin-right: 100px;
+}
+.container-gift{
+  display: flex;
+  width: 1110px;
+  margin: 0 auto;
+}
+.phone-container{
+  width: 1110px;
+  margin: 0 auto;
+}
+.phon{
+  margin-bottom: 100px;
+}
